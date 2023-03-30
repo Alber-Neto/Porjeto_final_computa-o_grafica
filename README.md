@@ -1,4 +1,4 @@
-# Porjeto_final_computaçâo_grafica
+# Porjeto_final_computação_grafica
 
 Esse é um projeto relacionado a diciplina de computação grafica da faculdade Estadual do Rio grande do Norte
 
