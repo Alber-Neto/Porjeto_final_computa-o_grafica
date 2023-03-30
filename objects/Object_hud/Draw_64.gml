@@ -1,3 +1,5 @@
+draw_set_color(c_white)
+
 if global.life = 3{
 draw_sprite(Sprite_life,3,50,50)
 }

@@ -12,11 +12,13 @@ for(var i =0; i<op_max;i++){
 	draw_text(x1,y1+dist*i,opcao[i])
 	
 	if(index == i){
-	draw_set_color(c_white)
+		draw_set_color(c_white)
 	}
 	else{
-	draw_set_color(c_red)
+		draw_set_color(c_red)
 	}
+	
+	
 }
 
 draw_set_font(-1)
