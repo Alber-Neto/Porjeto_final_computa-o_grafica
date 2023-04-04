@@ -44,7 +44,7 @@ var _xx= x + lengthdir_x(15,image_angle)
 var y_offset = lengthdir_y(-20,image_angle)
 
 if Key_shoot and global.bullets > 0{
-with (instance_create_layer(_xx,y-20,"Shoot",Object_shoot)){
+with (instance_create_layer(_xx,y+10,"Shoot",Object_shoot)){
 global.bullets--
 //velocidade
 speed=10
@@ -60,4 +60,27 @@ image_angle=direction
 if global.life <1{
 game_restart()
 }
+#endregion
+
+#region animação
+if place_meeting(x,y+2,Object_piso){
+sprite_index = Sprite_teste_parado
+}
+else{
+	if(hspd = 0){sprite_index=Sprite_teste_parado}
+
+    if(hspd != 0){
+    sprite_index= Sprite_teste_pulando
+    }}
+
+    if(hspd = 0){
+    if place_meeting(x,y,Object_piso){
+    sprite_index=Sprite_teste_move}
+    }
+
+    if(hspd != 0){
+    if place_meeting(x,y,Object_piso){
+    sprite_index= Sprite_teste_parado}
+    }
+
 #endregion

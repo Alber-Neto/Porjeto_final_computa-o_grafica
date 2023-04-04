@@ -6,5 +6,5 @@ else{
 gravity=0
 }
 //image_angle=direction
-if(Object_jogador.x>Object_inimigo.x){sprite_index=Sprite_inimigo_D}
+if(Object_jogador.x>Object_inimigo3.x){sprite_index=Sprite_inimigo_D}
 else{sprite_index=Sprite_inimigo}
