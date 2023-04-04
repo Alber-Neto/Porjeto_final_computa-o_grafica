@@ -74,6 +74,7 @@
     {"id":{"name":"Sprite_Tumulo2","path":"sprites/Sprite_Tumulo2/Sprite_Tumulo2.yy",},},
     {"id":{"name":"Sprite_teste_pulando","path":"sprites/Sprite_teste_pulando/Sprite_teste_pulando.yy",},},
     {"id":{"name":"Object_controla_LUZ","path":"objects/Object_controla_LUZ/Object_controla_LUZ.yy",},},
+    {"id":{"name":"Object_creditos","path":"objects/Object_creditos/Object_creditos.yy",},},
     {"id":{"name":"Object_spawn","path":"objects/Object_spawn/Object_spawn.yy",},},
     {"id":{"name":"Object_inimigo3","path":"objects/Object_inimigo3/Object_inimigo3.yy",},},
     {"id":{"name":"Object_poste","path":"objects/Object_poste/Object_poste.yy",},},
@@ -91,7 +92,9 @@
     {"id":{"name":"Object_jogador","path":"objects/Object_jogador/Object_jogador.yy",},},
     {"id":{"name":"Object_fim","path":"objects/Object_fim/Object_fim.yy",},},
     {"id":{"name":"Sprite_Bullet","path":"sprites/Sprite_Bullet/Sprite_Bullet.yy",},},
+    {"id":{"name":"Ambiente_creditos","path":"rooms/Ambiente_creditos/Ambiente_creditos.yy",},},
     {"id":{"name":"Sprite_inimigo_D","path":"sprites/Sprite_inimigo_D/Sprite_inimigo_D.yy",},},
+    {"id":{"name":"Sprite_tocha","path":"sprites/Sprite_tocha/Sprite_tocha.yy",},},
     {"id":{"name":"Sprite_life_fixo","path":"sprites/Sprite_life_fixo/Sprite_life_fixo.yy",},},
     {"id":{"name":"Shader1","path":"shaders/Shader1/Shader1.yy",},},
     {"id":{"name":"Object_inimigo4","path":"objects/Object_inimigo4/Object_inimigo4.yy",},},
@@ -108,6 +111,7 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"Ambiente_menu","path":"rooms/Ambiente_menu/Ambiente_menu.yy",},},
     {"roomId":{"name":"Ambiente_principal","path":"rooms/Ambiente_principal/Ambiente_principal.yy",},},
+    {"roomId":{"name":"Ambiente_creditos","path":"rooms/Ambiente_creditos/Ambiente_creditos.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},

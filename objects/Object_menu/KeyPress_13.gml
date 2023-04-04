@@ -1,6 +1,9 @@
 if(index==1){
 game_end()
 }
-if(index==0){
+if(index==2){
 room_goto_next()
+}
+if(index==0){
+room_goto(2)
 }

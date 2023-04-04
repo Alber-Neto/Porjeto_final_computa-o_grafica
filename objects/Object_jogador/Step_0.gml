@@ -63,24 +63,16 @@ game_restart()
 #endregion
 
 #region animação
-if place_meeting(x,y+2,Object_piso){
-sprite_index = Sprite_teste_parado
-}
-else{
-	if(hspd = 0){sprite_index=Sprite_teste_parado}
+
 
     if(hspd != 0){
-    sprite_index= Sprite_teste_pulando
-    }}
-
-    if(hspd = 0){
-    if place_meeting(x,y,Object_piso){
-    sprite_index=Sprite_teste_move}
+    sprite_index= Sprite_teste_move
     }
 
-    if(hspd != 0){
-    if place_meeting(x,y,Object_piso){
-    sprite_index= Sprite_teste_parado}
-    }
+    else{
+    sprite_index=Sprite_teste_parado}
+    
+
+
 
 #endregion
